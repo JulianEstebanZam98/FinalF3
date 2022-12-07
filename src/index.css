@@ -36,6 +36,10 @@ nav{
   font-size: 1.2 rem;
 }
 
+  .nav-links {
+
+  }
+
 a{
   color: #000;
   text-decoration: none;
@@ -99,7 +103,17 @@ form{
   align-items: center;
 }
 
-.imput-form{
+.container-h90{
+  box-sizing: content-box;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.input-form{
   margin: 10px 0 20px 0;
   padding: 6px;
   border:none;
