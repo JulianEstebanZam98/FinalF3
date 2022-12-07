@@ -25,9 +25,15 @@ h1{
 
 nav{
   display: flex;
-  width: 80vw;
-  justify-content: flex-start;
-  padding: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  padding: 25px 0;
+  background-color: #f0f0f0;
+}
+
+.links-navbar {
+  margin-left: 20px;
+  font-size: 1.2 rem;
 }
 
 a{
@@ -39,6 +45,20 @@ a{
 a:hover{
   color: rgb(136, 136, 136);
 } 
+
+.boton-theme {
+  margin-right: 20px;
+  width: 150px;
+  padding: 5px;
+  border: 1px solid; 
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.boton-theme:hover{
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
 
 footer {
   display: flex;
@@ -70,6 +90,38 @@ form{
   margin: 0 auto;
 }
 
+.container-form{
+  width:100%;
+  height: 70vh;
+  display:flex ;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imput-form{
+  margin: 10px 0 20px 0;
+  padding: 6px;
+  border:none;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.bton-form{
+  margin:20px 0 50px 0 ;
+  padding: 6px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(196,218,255);
+  font-size:1rem;
+  font-weight: 700;
+}
+
+.bton-form:hover{
+  cursor: pointer;
+  background-color: rgb(178,206,255);
+}
+
 .card{
   display: flex;
   justify-content: space-around;
@@ -94,8 +146,46 @@ form{
   margin: 0 auto;
 }
 
+.Img-Doc{
+  width: 90%;
+}
+
+.container-card-detail{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-detail{
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.Img-Doc-detail{
+  width: 50%;
+}
+
+.btn-goback{
+  width: 30%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(196,218,255);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.btn-goback:hover{
+  cursor: pointer;
+  background-color: rgb(178,206,255);
+}
+
 table {
- border-collapse: collapse;
+    border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     display: table;
@@ -113,10 +203,10 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.dark{
+#dark{
   background-color: #12121296;
   color: white;
 }
-.dark > a {
+#dark > a {
   color: white;
 }
